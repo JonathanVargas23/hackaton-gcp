@@ -3,7 +3,7 @@ import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
-import { HackatonModule } from './modules/hackaton.module';
+import { HackatonModule } from './modules/hackaton/hackaton.module';
 import * as cors from 'cors';
 
 @Module({

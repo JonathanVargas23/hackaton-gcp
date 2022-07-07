@@ -6,9 +6,9 @@ export class HackatonService {
   // constructor() {}
 
   public async sendImage(data) {
-    console.log(`funciona:`, data.name);
+    console.log(`funciona:`, data.buffer.toString());
     return {
-      message: `Hello hackaton gcp ${data.name}`
+      message: `Hello hackaton gcp`
     }
   }
 }
